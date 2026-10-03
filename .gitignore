@@ -20,3 +20,9 @@ venv/
 
 # Temporary files
 *.tmp
+
+# Raw datasets
+data/raw/
+
+# Processed datasets
+data/processed/
