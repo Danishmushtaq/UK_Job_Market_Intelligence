@@ -211,5 +211,3 @@ The next stage of the project is to transform the SQL analysis into an interacti
 ## Conclusion
 
 This project demonstrates the ability to work with relational e-commerce data, perform SQL-based analysis, identify meaningful business patterns and communicate findings in a business context.
-
-The project will be extended with Power BI visualisations and a final set of business recommendations.
