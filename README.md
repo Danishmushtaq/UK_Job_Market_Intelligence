@@ -214,6 +214,49 @@ For this business problem, identifying potentially late orders is important, so 
 ---
 
 ## Key Findings
+## Visual Analysis
+
+### Delivery Status Distribution
+
+![Delivery Status Distribution](images/delivery_status_distribution.png)
+
+The dataset is strongly imbalanced, with the majority of orders delivered on time and a much smaller proportion classified as late.
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance_model2.png)
+
+Order value, freight value and purchase-time features were among the most influential variables in the model shown above.
+
+### Model Performance Comparison
+
+![Model Performance Comparison](images/model_comparison.png)
+
+The comparison demonstrates why overall accuracy should not be considered alone when evaluating an imbalanced classification problem.
+
+### Classification Threshold Analysis
+
+![Threshold Analysis](images/threshold_analysis.png)
+
+Changing the classification threshold changes the balance between identifying late deliveries and avoiding false alerts. A threshold of 0.30 provided a stronger balance for the final model.
+
+### Order Value by Delivery Status
+
+![Order Value](images/order_value_by_delivery_status.png)
+
+Late orders had a higher average order value than orders delivered on time.
+
+### Freight Value by Delivery Status
+
+![Freight Value](images/freight_value_by_delivery_status.png)
+
+Late orders also had a higher average freight value.
+
+### Estimated Delivery Days
+
+![Estimated Delivery Days](images/estimated_delivery_days_by_status.png)
+
+The analysis compares average estimated delivery duration between late and on-time orders.
 
 ### 1. Delivery Imbalance
 
